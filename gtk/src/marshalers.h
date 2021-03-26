@@ -6,10 +6,10 @@
 
 G_BEGIN_DECLS
 
-/* VOID:STRING (/home/jstebbins/Source/hb/HandBrake/build.dbg/../gtk/src/marshalers.list:1) */
+/* VOID:STRING (/home/rkierski/HandBrake/build/../gtk/src/marshalers.list:1) */
 #define ghb_marshal_VOID__STRING	g_cclosure_marshal_VOID__STRING
 
-/* VOID:STRING,STRING (/home/jstebbins/Source/hb/HandBrake/build.dbg/../gtk/src/marshalers.list:2) */
+/* VOID:STRING,STRING (/home/rkierski/HandBrake/build/../gtk/src/marshalers.list:2) */
 extern
 void ghb_marshal_VOID__STRING_STRING (GClosure     *closure,
                                       GValue       *return_value,
@@ -18,7 +18,7 @@ void ghb_marshal_VOID__STRING_STRING (GClosure     *closure,
                                       gpointer      invocation_hint,
                                       gpointer      marshal_data);
 
-/* BOOLEAN:BOXED (/home/jstebbins/Source/hb/HandBrake/build.dbg/../gtk/src/marshalers.list:3) */
+/* BOOLEAN:BOXED (/home/rkierski/HandBrake/build/../gtk/src/marshalers.list:3) */
 extern
 void ghb_marshal_BOOLEAN__BOXED (GClosure     *closure,
                                  GValue       *return_value,

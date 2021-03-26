@@ -1064,11 +1064,12 @@ typedef struct {
 static int
 parse_datestring(const char *src, struct tm *tm)
 {
+    int i;
     datemap ymdThmsZ = {"[0-9]{4}-[0-1]?[0-9]-[0-3]?[0-9]T[0-9]{2}:[0-9]{2}:[0-9]{2}Z", "%Y-%m-%dT%H:%M:%SZ"};
 
     datemap maps[1] = { ymdThmsZ };
 
-    for (int i = 0; i < sizeof(maps); i++)
+    for (i = 0 ; i < sizeof(maps); i++)
     {
         if (hb_validate_param_string(maps[i].pattern, src))
         {

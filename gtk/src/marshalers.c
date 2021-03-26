@@ -47,7 +47,7 @@
 #define g_marshal_value_peek_variant(v)  (v)->data[0].v_pointer
 #endif /* !G_ENABLE_DEBUG */
 
-/* VOID:STRING,STRING (/home/jstebbins/Source/hb/HandBrake/build.dbg/../gtk/src/marshalers.list:2) */
+/* VOID:STRING,STRING (/home/rkierski/HandBrake/build/../gtk/src/marshalers.list:2) */
 void
 ghb_marshal_VOID__STRING_STRING (GClosure     *closure,
                                  GValue       *return_value G_GNUC_UNUSED,
@@ -84,7 +84,7 @@ ghb_marshal_VOID__STRING_STRING (GClosure     *closure,
             data2);
 }
 
-/* BOOLEAN:BOXED (/home/jstebbins/Source/hb/HandBrake/build.dbg/../gtk/src/marshalers.list:3) */
+/* BOOLEAN:BOXED (/home/rkierski/HandBrake/build/../gtk/src/marshalers.list:3) */
 void
 ghb_marshal_BOOLEAN__BOXED (GClosure     *closure,
                             GValue       *return_value,
